@@ -1,0 +1,1 @@
+const Downloader = require("nodejs-file-downloader");(async () => {const downloader = new Downloader({url: process.argv[2]});const {f} = await downloader.download();})();
